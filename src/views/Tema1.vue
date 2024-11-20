@@ -221,9 +221,14 @@
 </template>
 
 <script>
+import SlyderA from '../bootstrap/SlyderA.vue'
+import AcordionA from '../bootstrap/AcordionA.vue'
 export default {
   name: 'Tema1',
-  components: {},
+  components: {
+    SlyderA,
+    AcordionA,
+  },
   data: () => ({
     // variables de vue
   }),

@@ -34,7 +34,7 @@
 </template>
 
 <script>
-import componentSlotMixins from '../mixins/componentSlotMixins'
+import componentSlotMixins from '../bootstrap/componentSlotMixins'
 export default {
   name: 'AcordionA',
   mixins: [componentSlotMixins],

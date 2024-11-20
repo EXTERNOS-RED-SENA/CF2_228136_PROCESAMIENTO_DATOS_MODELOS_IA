@@ -250,8 +250,12 @@
 </template>
 
 <script>
+import SlyderA from '../bootstrap/SlyderA.vue'
 export default {
   name: 'Tema2',
+  components: {
+    SlyderA,
+  },
   data: () => ({
     // variables de vue
   }),
