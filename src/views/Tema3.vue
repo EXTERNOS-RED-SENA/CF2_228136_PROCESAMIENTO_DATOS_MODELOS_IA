@@ -134,7 +134,7 @@
     .row.mt-4
       .col-lg(data-aos="fade-right")
         p La efectividad de una visualización no solo depende de su precisión técnica, sino también de su capacidad para comunicar información de manera clara y convincente. Los principios de diseño visual, como el uso apropiado del color, la gestión del espacio y la jerarquía visual, desempeñan un papel destacado en la creación de visualizaciones que sean tanto informativas como accesibles
-        p.mb-0.fw-bold El análisis exploratorio de datos, con sus múltiples facetas y técnicas, es una fase crítica en cualquier proyecto de análisis de datos o inteligencia artificial.
+        p.mb-0.fw-bold El análisis exploratorio de datos, con sus múltiples facetas y técnicas, es una fase crítica en cualquier proyecto de análisis de datos o inteligencia artificial. La combinación de estadística rigurosa, análisis multivariable y visualización efectiva proporciona los cimientos necesarios para construcción de modelos robustos y confiables.
       .col-lg-auto.d-none.d-lg-block(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema3/7.png")

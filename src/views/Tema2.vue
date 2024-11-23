@@ -21,7 +21,7 @@
 
     .cont_1_2
       p(data-aos="fade-up") Las bodegas de datos (#[em Data Warehouses]) son el fundamento de cualquier estrategia moderna de inteligencia de negocios. A diferencia de las bases de datos operacionales tradicionales, las bodegas de datos están diseñadas específicamente para el análisis y el soporte a la toma de decisiones. 
-      p.fw-bold(data-aos="fade-right") Características de las bodegas de datos
+      p.fw-bold(data-aos="fade-right") Sus características principales incluyen:
       .row.mt-4.justify-content-center
         .col-lg.col-md-9.mb-4.mb-lg-0(data-aos="zoom-in" data-aos-duration="800")
           .cont_1_3.h-100.p-4
@@ -48,8 +48,6 @@
             p.fw-bold.mb-3 Variación temporal
             p Se mantiene la dimensión temporal de todos los datos
     
-    p.mt-4.mt-lg-5(data-aos="fade-right") El diseño de una bodega de datos requiere una comprensión profunda tanto de las necesidades analíticas del negocio como de las características de los datos disponibles. Un aspecto crítico es la estrategia de actualización y mantenimiento, que debe balancear la frescura de los datos con la estabilidad del sistema.
-
     .p-4.p-md-3.mt-4(style="background-color:#E7FFE7;" data-aos="fade-up" data-aos-duration="700")
       .row
         .col-md-auto.d-none.d-md-block(style="place-self:center;")

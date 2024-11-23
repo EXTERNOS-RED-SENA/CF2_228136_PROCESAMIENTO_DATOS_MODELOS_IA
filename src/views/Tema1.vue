@@ -12,7 +12,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema1/1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 El modelamiento avanzado de datos constituye la base de la construcción de sistemas de información modernos, especialmente aquellos destinados a soportar aplicaciones de inteligencia artificial. Este capítulo explora las técnicas y metodologías para diseñar e implementar las estructuras de datos que almacenen información de manera eficiente, y que también soporten las complejas necesidades analíticas de los sistemas de IA actuales. Abordaremos desde las reglas de negocio fundamentales hasta los principios de diseño de bases de datos.
+        p.mb-0 El modelamiento avanzado de datos constituye la base de la construcción de sistemas de información modernos, especialmente aquellos destinados a soportar aplicaciones de inteligencia artificial. Este capítulo explora las técnicas y metodologías para diseñar e implementar las estructuras de datos que almacenen información de manera eficiente, y que también soporten las complejas necesidades analíticas de los sistemas de IA actuales. Abordaremos desde las reglas de negocio fundamentales hasta los principios de diseño de bases de datos, estableciendo una base sólida para la gestión efectiva de datos en entornos empresariales modernos.
     
     Separador
 
