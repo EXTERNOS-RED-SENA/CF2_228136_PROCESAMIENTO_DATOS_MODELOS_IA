@@ -139,36 +139,6 @@
         figure
           img(src="@/assets/curso/tema3/7.png")
 
-    .cont_decorativo.mb-5.mt-5(data-aos="fade-right")
-      .row
-        .col-auto.pe-0
-          figure
-            img(src="@/assets/curso/tema3/8.svg")
-        .col.ps-2(style="place-self:end;")
-          h3.mb-0.mb-lg-2.pe-4.text-white Cinco pasos para elegir entre Boxplots, t-SNE y UMAP en análisis de datos
-    
-    .row
-      .col-lg(data-aos="fade-right")
-        LineaTiempoD.color-secundario
-          div.text-small(numero="1" titulo="Usar Boxplots para la distribución de datos") 
-            p Los boxplots son ideales para visualizar la distribución de una variable numérica, mostrando la mediana, los cuartiles y posibles valores atípicos. Resultan útiles para comparar distribuciones entre diferentes categorías.
-            p #[strong Ejemplo:] comparar la variabilidad en las calificaciones de estudiantes entre diferentes asignaturas.
-          div.text-small(numero="2" titulo="Usar t-SNE para reducción de dimensionalidad y separación de clases") 
-            p.mt-3 t-SNE es adecuado cuando se necesita reducir la dimensionalidad de datos complejos y observar cómo se agrupan o separan diferentes clases en un espacio de menor dimensión. Es especialmente útil con datos no lineales. 
-            p #[strong Ejemplo:] visualizar cómo se agrupan los clientes según su comportamiento de compra en un espacio de 2D.
-          div.text-small(numero="3" titulo="Usar UMAP cuando se desea mantener la estructura global y local de los datos") 
-            p.mt-3 UMAP preserva mejor la estructura global de los datos que t-SNE, manteniendo las relaciones tanto locales como globales. Funciona bien con grandes conjuntos de datos y es eficiente al tratar con diferentes tipos de datos. 
-            p #[strong Ejemplo:] visualizar grandes conjuntos de datos de imágenes manteniendo las relaciones locales de imágenes similares y las diferencias globales entre clases.
-          div.text-small(numero="4" titulo="Usar Boxplots para detectar anomalías") 
-            p Los boxplots permiten identificar puntos atípicos, es decir, valores extremadamente altos o bajos en comparación con el resto de los datos. Esto resulta útil para detectar errores de medición o datos fuera de lo común. Ejemplo: Detectar valores atípicos en los ingresos de una población para identificar posibles errores de registro.
-          div.text-small(numero="5" titulo="Usar t-SNE o UMAP para explorar patrones en conjuntos de datos complejos") 
-            p.mt-3 t-SNE y UMAPexploran patrones en datos de alta dimensión, como textos o imágenes, revelando relaciones entre grupos que no son fácilmente visibles en espacios de alta dimensión. 
-            p #[strong Ejemplo:] explorar relaciones entre documentos de texto según sus características semánticas utilizando t-SNE o UMAP.
-      .col-lg-auto.d-none.d-lg-block(data-aos="fade-left")
-        figure
-          img(src="@/assets/curso/tema3/9.png")
-
-
 
 
 </template>

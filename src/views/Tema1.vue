@@ -35,38 +35,6 @@
         figure
           img(src="@/assets/curso/tema1/3.png")
 
-    .cont_1_1.mt-4.pt-4.pb-4.pb-xl-5.pt-xl-5.mt-5
-      .tarjeta.bg-white.p-4
-        SlyderA(tipo="b")
-          .row.pt-lg-4.col-xl-11.m-auto
-            .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
-              h4 Modelamiento de datos en empresas grandes y pymes
-              p.mt-4 El modelamiento de datos organiza la información para responder a objetivos específicos. En empresas grandes, optimiza análisis de millones de registros en tiempo real para prever tendencias del mercado. En pymes, organiza inventarios y gestiona datos de clientes de forma eficiente para aumentar ventas y reducir costos.
-            .col-lg-5
-              figure.m-auto.col-8.col-md-6.col-lg-12
-                img(src='@/assets/curso/tema1/5.png')
-          .row.pt-lg-4.col-xl-11.m-auto
-            .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
-              h4 Impacto en empresas grandes y pymes
-              p.mt-4 Las empresas grandes utilizan reglas de negocio para garantizar que operaciones internacionales cumplan con normativas legales. Las pymes implementan reglas simples para gestionar inventarios o priorizar clientes según su rentabilidad. Este enfoque reduce errores y asegura el cumplimiento de objetivos comerciales.
-            .col-lg-5
-              figure.m-auto.col-8.col-md-6.col-lg-12
-                img(src='@/assets/curso/tema1/6.png')
-          .row.pt-lg-4.col-xl-11.m-auto
-            .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
-              h4 Metodologías ágiles en el modelamiento de datos
-              p.mt-4 Las metodologías iterativas ajustan los modelos a las necesidades cambiantes del negocio. Una empresa tecnológica actualiza su modelo para analizar el comportamiento de usuarios y mejorar productos. Las pymes refinan sus datos para ajustar precios o introducir promociones según patrones de compra.
-            .col-lg-5
-              figure.m-auto.col-8.col-md-6.col-lg-12
-                img(src='@/assets/curso/tema1/7.png')
-          .row.pt-lg-4.col-xl-11.m-auto
-            .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
-              h4 Beneficios tangibles del modelamiento avanzado
-              p.mt-4 El modelamiento de datos acelera análisis y mejora la toma de decisiones. En empresas grandes, facilita la gestión logística y la personalización de servicios. Las pymes maximizan ingresos al ajustar estrategias de ventas basadas en datos concretos, optimizando recursos limitados para obtener resultados rápidos.
-            .col-lg-5
-              figure.m-auto.col-8.col-md-6.col-lg-12
-                img(src='@/assets/curso/tema1/8.png')
-    
 
     Separador
 
@@ -123,22 +91,6 @@
     p.mt-4(data-aos="fade-right") Esta progresión de formas normales ilustra cómo el proceso de normalización evoluciona desde conceptos básicos hasta consideraciones más avanzadas. Sin embargo, es importante notar que no siempre es necesario o deseable alcanzar los niveles más altos de normalización. La decisión de hasta qué nivel normalizar debe basarse en un análisis cuidadoso de los requisitos específicos del sistema, considerando factores como el rendimiento de las consultas, la naturaleza de los datos y las necesidades del negocio.
 
     .cont_1_2.mt-4
-      .row
-        .col-lg-3.d-none.d-lg-block(data-aos="fade-right")
-          figure 
-            img(src="@/assets/curso/tema1/11.png")
-        .col-lg-9(data-aos="zoom-in")
-          AcordionA(tipo="a" clase-tarjeta="tarjeta")
-            .row.col-xl-11.m-auto(titulo="Impacto de la primera forma normal (1FN) en las empresas")
-              p La primera forma normal es esencial para garantizar un diseño básico en bases de datos. En una pyme que administra inventarios, esta forma evita errores al almacenar productos repetidos en una sola celda. Por ejemplo, registrar "10 sillas y 5 mesas" como un solo campo puede complicar el análisis de ventas. Al dividir estos datos en filas individuales, es más sencillo rastrear cada producto vendido, mejorar el control de inventarios y realizar proyecciones más precisas.
-            .row.col-xl-11.m-auto(titulo="Optimización de procesos con la segunda forma normal (2FN)")
-              p En empresas con operaciones complejas, la segunda forma normal asegura que no existan dependencias parciales. Por ejemplo, en una cadena de restaurantes, asociar el nombre del proveedor con cada pedido puede llevar a redundancia. Al separar esta información en tablas independientes, el sistema facilita la actualización de datos del proveedor sin afectar otras transacciones. Esto es crucial para integrar sistemas ERP y minimizar errores operativos.
-            .row.col-xl-11.m-auto(titulo="Eficiencia en análisis con la tercera forma normal (3FN)")
-              p La tercera forma normal es clave para mejorar la calidad del análisis de datos. En una empresa de logística, incluir la dirección de los clientes dentro de una tabla de órdenes puede generar inconsistencias cuando un cliente cambia de ubicación. Al crear una tabla específica para direcciones, se reduce la duplicidad y se garantiza que los reportes, como tiempos de entrega promedio, utilicen información consistente y actualizada.
-            .row.col-xl-11.m-auto(titulo="Aplicabilidad empresarial de BCNF")
-              p La forma normal de Boyce-Codd es fundamental en sectores como la banca, donde la precisión en la información es crítica. Por ejemplo, al diseñar un sistema de cuentas y transacciones, BCNF asegura que no existan datos redundantes o incoherencias en la relación entre las cuentas y los tipos de transacción. Esto mejora la transparencia del sistema, facilita auditorías y reduce errores regulatorios.
-            .row.col-xl-11.m-auto(titulo="Manejo avanzado de relaciones con la cuarta forma normal (4FN)")
-              p La cuarta forma normal aborda escenarios complejos que aparecen en grandes empresas con múltiples relaciones simultáneas. Por ejemplo, en una plataforma de comercio electrónico, una misma tabla podría incluir datos de clientes, productos y métodos de pago. Dividir estas relaciones en tablas separadas permite diseñar un sistema más escalable que agilice consultas específicas, como identificar métodos de pago preferidos para un producto. Esto resulta valioso para estrategias de marketing segmentado.
     
       Separador
 
@@ -182,38 +134,6 @@
           img(src="@/assets/curso/tema1/16.png")
 
     p.mt-5(data-aos="fade-right") El desafío actual en el modelamiento avanzado de datos radica en encontrar el equilibrio adecuado entre estos principios tradicionales y las necesidades emergentes de sistemas de IA, que a menudo requieren flexibilidad y velocidad en el acceso a los datos.
-
-    .cont_1_1.mt-4.pt-4.pb-4.pb-xl-5.pt-xl-5.mt-5
-      .tarjeta.bg-white.p-4
-        SlyderA(tipo="b")
-          .row.pt-lg-4.col-xl-11.m-auto
-            .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
-              h4 Atomicidad en transacciones bancarias
-              p.mt-4 La atomicidad mantiene la integridad en transacciones críticas. Por ejemplo, en una transferencia bancaria, si se debita una cuenta pero no se acredita la otra, la transacción no debe completarse. Este principio evita errores costosos en sistemas financieros y garantiza que el estado de los datos sea consistente.
-            .col-lg-5
-              figure.m-auto.col-8.col-md-6.col-lg-12
-                img(src='@/assets/curso/tema1/17.png')
-          .row.pt-lg-4.col-xl-11.m-auto
-            .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
-              h4 Consistencia en la integridad de los datos
-              p.mt-4 La consistencia asegura que las reglas de integridad de una base de datos se mantengan antes y después de una transacción. Por ejemplo, en un sistema de inventario, si una transacción de venta reduce la cantidad de productos, el sistema debe asegurar que no queden productos en stock con cantidades negativas. Esto es clave para evitar errores de facturación y asegurar que el inventario refleje la realidad del negocio.
-            .col-lg-5
-              figure.m-auto.col-8.col-md-6.col-lg-12
-                img(src='@/assets/curso/tema1/18.png')
-          .row.pt-lg-4.col-xl-11.m-auto
-            .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
-              h4 Aislamiento de transacciones concurrentes
-              p.mt-4 El aislamiento previene que las transacciones concurrentes interfieran entre sí. En una empresa de comercio electrónico, si múltiples usuarios realizan compras simultáneamente, el sistema debe garantizar que cada compra se procese como si fuera única, lo cual evita conflictos de datos (como la sobreventa de un producto).
-            .col-lg-5
-              figure.m-auto.col-8.col-md-6.col-lg-12
-                img(src='@/assets/curso/tema1/19.png')
-          .row.pt-lg-4.col-xl-11.m-auto
-            .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
-              h4 Durabilidad de las transacciones
-              p.mt-4 La durabilidad garantiza que una vez que una transacción se complete, sus efectos sean permanentes, incluso ante fallos del sistema. Por ejemplo, si un sistema de pago en línea procesa un pago, la información de la transacción debe quedar registrada y disponible, incluso si el sistema se cae inmediatamente después del procesamiento.
-            .col-lg-5
-              figure.m-auto.col-8.col-md-6.col-lg-12
-                img(src='@/assets/curso/tema1/20.png')
 
 
 

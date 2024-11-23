@@ -113,58 +113,7 @@
         figure
           img(src="@/assets/curso/tema2/11.png")
 
-    .cont_1_1.mt-4.pt-4.pb-4.pb-xl-5.pt-xl-5.mt-5
-      .tarjeta.bg-white.p-4
-        SlyderA(tipo="b")
-          .row.pt-lg-4.col-xl-11.m-auto
-            .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
-              h4 Estructura de las tablas de dimensiones
-              p.mt-4 En el esquema estrella, las tablas de dimensiones están desnormalizadas, lo que significa que contienen toda la información en una sola tabla, reduciendo la cantidad de uniones necesarias. En el esquema copo de nieve, las dimensiones están normalizadas, lo que significa que los datos se dividen en varias tablas relacionadas entre sí.
-            .col-lg-5
-              figure.m-auto.col-8.col-md-6.col-lg-12
-                img(src='@/assets/curso/tema2/12.png')
-          .row.pt-lg-4.col-xl-11.m-auto
-            .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
-              h4 Complejidad de las consultas
-              p.mt-4 Las consultas en el esquema estrella son más simples, ya que las tablas de dimensiones están desnormalizadas y no requieren uniones complejas. En el esquema copo de nieve, debido a la normalización de las dimensiones, las consultas son más complejas, ya que es necesario hacer más uniones entre tablas.
-            .col-lg-5
-              figure.m-auto.col-8.col-md-6.col-lg-12
-                img(src='@/assets/curso/tema2/13.png')
-          .row.pt-lg-4.col-xl-11.m-auto
-            .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
-              h4 Uso de espacio de almacenamiento
-              p.mt-4 El esquema estrella generalmente ocupa más espacio de almacenamiento debido a la desnormalización de las tablas de dimensiones, ya que los datos redundantes se almacenan en cada tabla. En el esquema copo de nieve, al normalizar las tablas de dimensiones, se reduce la redundancia, lo que disminuye el espacio de almacenamiento requerido.
-            .col-lg-5
-              figure.m-auto.col-8.col-md-6.col-lg-12
-                img(src='@/assets/curso/tema2/14.png')
-          .row.pt-lg-4.col-xl-11.m-auto
-            .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
-              h4 Mantenimiento de los datos
-              p.mt-4 En el esquema estrella, el mantenimiento de los datos es más sencillo debido a la simplicidad de las tablas de dimensiones. Sin embargo, debido a la redundancia de datos, pueden ocurrir inconsistencias. En el esquema copo de nieve, el mantenimiento es más complejo, pero la normalización reduce el riesgo de inconsistencias y facilita la actualización de datos.
-            .col-lg-5
-              figure.m-auto.col-8.col-md-6.col-lg-12
-                img(src='@/assets/curso/tema2/15.png')
-          .row.pt-lg-4.col-xl-11.m-auto
-            .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
-              h4 Rendimiento en consultas
-              p.mt-4 El esquema estrella ofrece un mejor rendimiento en consultas, ya que las uniones son mínimas y los datos están optimizados para la lectura. En el esquema copo de nieve, aunque la normalización reduce la redundancia, el rendimiento en consultas puede verse afectado por las múltiples uniones necesarias.
-            .col-lg-5
-              figure.m-auto.col-8.col-md-6.col-lg-12
-                img(src='@/assets/curso/tema2/16.png')
-          .row.pt-lg-4.col-xl-11.m-auto
-            .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
-              h4 Uso recomendado del sistema estrella
-              p.mt-4 El esquema estrella es ideal para entornos donde se requiere un alto rendimiento en consultas y análisis rápidos de grandes volúmenes de datos, como en análisis de ventas o en sistemas de soporte a la toma de decisiones.
-            .col-lg-5
-              figure.m-auto.col-8.col-md-6.col-lg-12
-                img(src='@/assets/curso/tema2/17.png')
-          .row.pt-lg-4.col-xl-11.m-auto
-            .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
-              h4 Uso recomendado del sistema copo de nieve
-              p.mt-4 El esquema copo de nieve es más adecuado cuando se necesita un almacenamiento eficiente y la reducción de redundancia en bases de datos de grandes dimensiones, como en sistemas que gestionan datos históricos complejos o información con muchas relaciones entre atributos.
-            .col-lg-5
-              figure.m-auto.col-8.col-md-6.col-lg-12
-                img(src='@/assets/curso/tema2/18.png')
+    
 
     Separador
 
