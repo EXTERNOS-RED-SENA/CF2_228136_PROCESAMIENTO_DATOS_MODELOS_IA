@@ -16,13 +16,10 @@
           p.mb-0 El diagrama sirve como una guía visual para navegar por los conceptos presentados en el texto, permitiendo al aprendiz comprender rápidamente la estructura del componente y las relaciones entre sus diferentes elementos. Se recomienda utilizarlo como referencia para organizar el estudio y comprender la integración de los diferentes aspectos de la gestión avanzada de datos.
 
 
-    .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-      h5 Figura 3.
-      span Síntesis temática del componente
     .row.justify-content-center.p-4(style="background-color:#F4F4F4;border-radius:20px;")
       .col-lg-10.mb-5
         figure(data-aos="zoom-in-up" data-aos-duration="950")
-          img(src="@/assets/curso/sintesis.svg", alt="La Figura 3 se denomina «Síntesis temática del componente», allí se mencionan los principales temas tratados sobre integración y gestión avanzada de datos para inteligencia artificial —como el modelamiento avanzado, la inteligencia de negocios, el análisis exploratorio y la preparación avanzada de datos— y algunos subtemas que los integran.")
+          img(src="@/assets/curso/sintesis.svg", alt="Se denomina «Síntesis temática del componente», allí se mencionan los principales temas tratados sobre integración y gestión avanzada de datos para inteligencia artificial —como el modelamiento avanzado, la inteligencia de negocios, el análisis exploratorio y la preparación avanzada de datos— y algunos subtemas que los integran.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
